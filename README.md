@@ -1,5 +1,5 @@
 # To run app locally
-npm install,
+npm install
 
 npm start
 # I followed these steps to deploy a React App to GitHub Pages
