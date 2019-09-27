@@ -20,7 +20,7 @@ class App extends Component {
              this.setState({
                 temp: data.main.temp,
                 humd: data.main.humidity,          
-                image: `https://openweathermap.org/img/w/${data.weather[0].icon}.png`,
+                image: `http://openweathermap.org/img/w/${data.weather[0].icon}.png`,
                 loc: data.name,
                 error: ''   
             })
